@@ -1,5 +1,4 @@
-# Welcome to GitHub Desktop!
-
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+一些天津大学作业
+1.密码学实验
+2.人工智能基础实验
+3.数值计算实验
