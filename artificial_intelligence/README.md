@@ -13,9 +13,11 @@
     *   构建包含卷积层、池化层和全连接层的 LeNet-5 模型。
     *   在 CPU 或 GPU 上进行 5 个轮次的训练。
     *   评估模型在测试集上的准确率，并保存模型权重。
+    *   对图片test.png 进行预测并输出结果。
 *   **如何运行**：
     ```bash
-    python LeNet-5.py
+    python LeNet-5.pyh  +  python predict.py test.png 或
+    python LeNet-5.py --predict test.png
     ```
 *   **关键技术**：PyTorch, CNN, MNIST, Adam 优化器。
 
@@ -112,7 +114,8 @@
 pip install torch torchvision
 
 # 2. 运行 LeNet-5
-python LeNet-5.py
+python LeNet-5.pyh  +  python predict.py test.png 或
+python LeNet-5.py --predict test.png
 
 # 3. 运行八数码问题求解
 python "A- Algorithm.py"
